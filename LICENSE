@@ -1,21 +1,36 @@
-MIT License
+# Análise de Dados Logísticos
+Este repositório contém um código Python para análise de dados logísticos, utilizando diversas bibliotecas poderosas como Pandas, JSON, Geopy, NumPy, Seaborn e Matplotlib. O código foi desenvolvido para fornecer insights valiosos a partir de dados de logística, ajudando a otimizar operações e tomar decisões baseadas em dados.
 
-Copyright (c) 2025 Rafael Alves
+# Pré-requisitos
+Antes de executar o código, é necessário ter as seguintes bibliotecas instaladas:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- Pandas: Uma biblioteca de análise de dados que fornece estruturas de dados flexíveis e eficientes.
+- JSON: Para trabalhar com dados JSON no Python.
+- Geopy: Uma biblioteca para geocodificação, convertendo endereços em coordenadas geográficas.
+- NumPy: Uma biblioteca para computação numérica em Python.
+- Seaborn: Uma biblioteca de visualização de dados baseada no Matplotlib.
+- Matplotlib: Uma biblioteca para criação de gráficos estáticos, interativos e animados em Python.
+Você pode instalar todas as bibliotecas usando o gerenciador de pacotes pip com o seguinte comando:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+```
+Copy code
+pip install pandas json geopy numpy seaborn matplotlib
+```
+## Como Usar
+- Clone o Repositório: Clone este repositório em sua máquina local usando o seguinte comando:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+- Execute o Código: Navegue até o diretório onde o repositório foi clonado e execute o arquivo analise_logistica.py usando o Python:
+```
+python analise_logistica.py
+```
+O código será executado e fornecerá saída com base nos dados fornecidos.
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull (pull requests) para melhorar este projeto. Certifique-se de seguir as diretrizes de contribuição ao fazer alterações.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+
